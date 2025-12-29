@@ -1,4 +1,3 @@
-// Hello Speaker
 (function () {
   var helloSpeaker = {};
   helloSpeaker.speakWord = "Hello";
@@ -10,7 +9,6 @@
   window.helloSpeaker = helloSpeaker;
 })();
 
-// Goodbye Speaker
 (function () {
   var byeSpeaker = {};
   byeSpeaker.speakWord = "Goodbye";
@@ -22,7 +20,7 @@
   window.byeSpeaker = byeSpeaker;
 })();
 
-// Main Logic
+
 (function () {
   var names = [
     "Yaakov", "John", "Jen", "Jason", "Paul",
